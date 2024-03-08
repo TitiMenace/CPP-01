@@ -1,13 +1,13 @@
 
-NAME 		= phonebook
+NAME 		= zombie_generator
 
 CC			= c++
 
 CFLAGS		= -Wall -Wextra -Werror -std=c++98
 
-INCLUDES	=  Contact.hpp Phonebook.hpp includes.hpp
+INCLUDES	=  Zombie.hpp
 
-FILES		= contact phonebook main
+FILES		= Zombie newZombie randomChump main
 
 SRCS		= $(addsuffix .cpp, $(FILES))
 
